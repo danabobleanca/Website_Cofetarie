@@ -1,0 +1,1820 @@
+
+@media screen  and (max-width: 375px) {
+#header{
+	width:100%;
+	box-sizing:border-box;
+}
+
+#contact_header{
+	padding:5px 0px;
+	text-align:center;
+	background-color:black;
+	color:white;
+	font-size:12px;
+	box-sizing:border-box;
+
+
+}
+
+#contact_header img{
+	width:18px;
+	margin-left:10px;
+	margin-right:8px;
+}
+
+
+#date_header{
+	text-align:center;
+	border-top:4px solid black;
+	font-family:Old English Text MT;
+	font-size:13px;
+	box-sizing:border-box;
+	width:100%;
+
+}
+#ingrediente{
+	width:100%;
+	padding-top:10px;
+	font-size:16px;
+}
+
+#ingrediente img, #tort img{
+	width:35px;
+	margin-right:20px;
+	
+}
+
+#tort{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:15px;
+	font-size:16px;
+}
+
+#logo{
+	width:100%;
+	padding:0px 50px;
+	box-sizing:border-box;
+	margin:10px auto;
+	float:left;
+	clear:both;
+}
+#date_header div p img{
+	width:230px;
+	margin:0px;
+	padding:0px;}
+
+#date_header #ingrediente p img{
+	width:145px;
+}
+.toggle{
+	display:block;
+	text-align:right;
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:100%;
+	clear:both;
+	background-color:black;
+	color:white;
+	padding:6px 5px;
+	font-size:18px;
+	box-sizing:border-box;
+}
+
+#navigare #meniu{
+	display:block;
+	z-index:100;
+	box-sizing:border-box;
+}
+
+#navigare #meniu li{
+	width:100%;
+	display:block;
+	float:left;
+	margin:0px;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+	padding:0px 0px;
+	box-sizing:border-box;
+}
+
+
+#navigare #meniu li.open{
+	height:auto;
+}
+
+#navigare #meniu li a{
+	width:100%;
+	display:inline-block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:0px solid black;
+	box-sizing:border-box;
+	font-size:15px;
+	z-index:100;
+	padding:7px 0px;
+}
+
+
+#produsele_nostre, #despre_noi, #contact{
+	float:left;
+	clear:both;
+	width:100%;
+	text-align:center;
+	border:35px solid transparent;
+	border-image-source:url(imagini/border.png);
+	border-image-outset:1px;
+	border-image-slice:17%;
+	border-image-repeat:no-repeat;
+	font-family:Old English Text MT;
+	font-size:20px;
+	box-sizing:border-box;
+}
+
+#continut_despre{
+	height:500px;
+	width:100%;
+	box-sizing:border-box;
+	text-align:center;
+	margin:0px auto;
+	float:left;
+}
+
+#continut_despre div{
+	text-align:center;
+	padding-top:25px;
+}
+#bucatar{
+	height:110px;
+	width:100%;
+	padding:0% 30%;
+	box-sizing:border-box;
+	margin:0px auto;
+
+}
+#text_despre{
+	float:left;
+	width:100%;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding:10px 18px;
+	font-family:Old English Text MT;
+	font-size:16px;
+}
+#tacamuri{
+	height:110px;
+	width:100%;
+	float:left;
+	padding:0% 20%;
+	box-sizing:border-box;
+	margin:0px auto;
+}
+
+#produse{
+	float:left;
+}
+
+#torturi{
+	margin-top:20px;
+}
+#torturi div, #alte_produse a{
+	margin:0px;
+}
+
+#torturi div, #alte_produse a{
+	height:230px;
+	margin-bottom:10px;
+}
+#torturi a, #alte_produse a{
+	flex-basis:100%;
+}
+
+#produse div p{
+	
+	padding-top:70px;
+	padding-bottom:70px;
+	box-sizing:border-box;
+	opacity:0.7;
+	text-align:center;
+	font-family:Old English Text MT;
+	font-size:26px;
+	
+	
+}
+
+
+#continut_contact{
+	height:200px;
+	border:15px solid transparent;
+	padding:25px;
+	border-image-source:url(imagini/border3.png);
+	border-image-outset:0px;
+	border-image-slice:9%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:white;
+	background-repeat:no-repeat;
+	display:flex;
+	flex:1;
+}
+
+
+#continut_contact{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	width:100%;
+	height:auto;
+}
+#date_contact{
+	display:flex;
+	flex:100%;
+	flex:1;
+	flex-wrap:wrap;
+}
+#date_contact div{
+	flex:1;
+}
+
+#date_contact div p, #date_contact h3,  #program h3{
+	margin-bottom:10px;
+}
+#facebook_adresa a{
+	text-decoration:none;
+	color:#4c0000;
+}
+
+/*			DESPRE			*/
+
+#continut_pagina_despre{
+	float:left;
+	width:100%;
+	padding:0px;
+	margin-top:20px;
+	box-sizing:border-box;
+}
+
+#continut_pagina_despre div{
+	width:100%;
+}
+#despre1, #despre2{
+	width:100%;
+	display:block;
+	
+}
+
+#despre1 div, #despre2 div{
+	width:100%;
+	float:left;
+	display:inline-block;
+}
+#img1 img{
+	margin-top:5px;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border:10px solid #ffe1f0;
+}
+
+#cofetaria{
+	color:#ffc3e1;
+	font-size:16px;
+	font-style:italic;
+}
+
+#ingrediente_naturale{
+	color:#ff87c3;;
+}
+#despre_noi_index{
+text-align:center;
+padding:20px;
+font-size:12px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+#despre_noi_index2 p  span{
+	color:#cc5490;
+}
+
+#despre_noi_index2{
+text-align:left;
+padding:20px;
+font-size:12px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+
+#despre_noi_index2 p  .valori{
+	color:#ff87c3;
+	padding-left:70px;
+}
+
+
+#img2{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+
+	
+}
+#img2 img{
+	width:49%;
+	height:130px;
+	border:15px solid #ffe1f0;
+	box-sizing:border-box;
+	margin:0px 0px 5px 0px;
+	
+	
+}
+
+/*			PRAJITURI			*/
+
+#prajituri, #torturi_clasice, #torturi_tematice, #torturi_nunta, #torturi_botez, #torturi_copii, #candy_bar{
+	padding:10px;
+
+}
+
+#prajituri div, #torturi_clasice div, #torturi_tematice div,  #torturi_nunta div, #torturi_botez div, #torturi_copii div, #candy_bar div{
+	flex-basis:100%;
+	margin:7px;
+}
+
+/*			CONTACT			*/
+
+#contact_index{
+	float:left;
+	margin-top:20px;
+	padding:80px 0px;
+	
+}
+#contact_index div{
+	width:100%;
+	margin:0px auto;
+	padding:0px 0px;
+	border:40px solid transparent;
+	border-image-source:url(imagini/border_pagina_contact.png);
+	border-image-outset:0px;
+	border-image-slice:16%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:black;
+	background-repeat:no-repeat;
+}
+#contact_index h2{
+	font-size:24px;
+}
+
+#date_contact2 p span{
+	font-size:14px;
+}
+
+#contact_index p{
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+
+#footer{
+font-size:12px;
+}
+}
+
+@media screen  and (min-width: 375px) and (max-width: 667px){
+#header{
+	width:100%;
+	box-sizing:border-box;
+}
+
+#contact_header{
+	padding:5px 0px;
+	text-align:center;
+	background-color:black;
+	color:white;
+	font-size:12px;
+	box-sizing:border-box;
+
+
+}
+
+#contact_header img{
+	width:18px;
+	margin-left:10px;
+	margin-right:8px;
+}
+
+#adresa{
+	width:100%;
+}
+
+#date_header{
+	text-align:center;
+	border-top:4px solid black;
+	font-family:Old English Text MT;
+	font-size:13px;
+	box-sizing:border-box;
+	width:100%;
+
+}
+
+#ingrediente{
+	width:100%;
+	padding-top:10px;
+	font-size:18px;
+}
+
+#ingrediente img, #tort img{
+	width:35px;
+	margin-right:20px;
+	
+}
+
+#tort{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:15px;
+	font-size:18px;
+}
+
+#logo{
+	width:100%;
+	padding:0px 90px;
+	box-sizing:border-box;
+	margin:10px auto;
+	float:left;
+	clear:both;
+}
+#date_header div p img{
+	width:250px;
+	margin:0px;
+	padding:0px;}
+
+#date_header #ingrediente p img{
+	width:145px;
+}
+.toggle{
+	display:block;
+	text-align:right;
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:100%;
+	clear:both;
+	background-color:black;
+	color:white;
+	padding:6px 5px;
+	font-size:18px;
+	box-sizing:border-box;
+}
+
+#navigare #meniu{
+	display:block;
+	z-index:100;
+	box-sizing:border-box;
+}
+
+#navigare #meniu li{
+	width:100%;
+	display:block;
+	float:left;
+	margin:0px;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+	padding:0px 0px;
+	box-sizing:border-box;
+}
+
+
+#navigare #meniu li.open{
+	height:auto;
+}
+
+#navigare #meniu li a{
+	width:100%;
+	display:inline-block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:0px solid black;
+	box-sizing:border-box;
+	font-size:15px;
+	z-index:100;
+	padding:7px 0px;
+}
+
+#continut_pagina{
+	float:left;
+}
+
+
+#produsele_nostre, #despre_noi, #contact{
+	width:50%;
+	text-align:center;
+	border:35px solid transparent;
+	border-image-source:url(imagini/border.png);
+	border-image-outset:1px;
+	border-image-slice:17%;
+	border-image-repeat:no-repeat;
+	font-family:Old English Text MT;
+	font-size:20px;
+	box-sizing:border-box;
+}
+
+#continut_despre{
+	height:425px;
+	width:100%;
+	box-sizing:border-box;
+	text-align:center;
+	margin:0px auto;
+}
+
+#continut_despre div{
+	text-align:center;
+	padding-top:25px;
+	box-sizing:border-box;
+}
+#bucatar{
+	height:110px;
+	width:100%;
+	padding:0% 30%;
+	box-sizing:border-box;
+	margin:0px auto;
+
+}
+#text_despre{
+	float:left;
+	width:100%;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding:10px 18px;
+	font-family:Old English Text MT;
+	font-size:15px;
+}
+#tacamuri{
+	height:110px;
+	width:100%;
+	float:left;
+	padding:0% 20%;
+	box-sizing:border-box;
+	margin:0px auto;
+}
+
+#produse{
+
+}
+
+#torturi{
+	padding-top:10px;
+}
+#torturi div, #alte_produse a{
+	margin:0px;
+}
+
+#torturi div, #alte_produse a{
+	height:230px;
+	margin-bottom:10px;
+}
+#torturi a, #alte_produse a{
+	flex-basis:80%;
+}
+
+#produse div p{
+	
+	padding-top:70px;
+	padding-bottom:70px;
+	box-sizing:border-box;
+	opacity:0.7;
+	text-align:center;
+	font-family:Old English Text MT;
+	font-size:26px;
+	
+	
+}
+
+
+#continut_contact{
+	height:200px;
+	border:15px solid transparent;
+	padding:25px;
+	border-image-source:url(imagini/border3.png);
+	border-image-outset:0px;
+	border-image-slice:9%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:white;
+	background-repeat:no-repeat;
+	display:flex;
+	flex:1;
+}
+
+
+#continut_contact{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	width:100%;
+	height:auto;
+}
+#date_contact{
+	display:flex;
+	flex:100%;
+	flex:1;
+	flex-wrap:wrap;
+}
+#date_contact div{
+	flex:1;
+}
+
+#date_contact div p, #date_contact h3,  #program h3{
+	margin-bottom:10px;
+}
+#facebook_adresa a{
+	text-decoration:none;
+	color:#4c0000;
+}
+
+
+/*			DESPRE			*/
+
+#continut_pagina_despre{
+	float:left;
+	width:100%;
+	padding:0px;
+	margin-top:20px;
+	box-sizing:border-box;
+}
+
+#continut_pagina_despre div{
+	width:100%;
+}
+#despre1, #despre2{
+	width:100%;
+	display:block;
+	
+}
+
+#despre1 div, #despre2 div{
+	width:100%;
+	float:left;
+	display:inline-block;
+}
+#img1 img{
+	margin-top:5px;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border:10px solid #ffe1f0;
+}
+
+#cofetaria{
+	color:#ffc3e1;
+	font-size:16px;
+	font-style:italic;
+}
+
+#ingrediente_naturale{
+	color:#ff87c3;;
+}
+#despre_noi_index{
+text-align:center;
+padding:20px;
+font-size:12px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+#despre_noi_index2 p  span{
+	color:#cc5490;
+}
+
+#despre_noi_index2{
+text-align:left;
+padding:20px;
+font-size:12px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+
+#despre_noi_index2 p  .valori{
+	color:#ff87c3;
+	padding-left:70px;
+}
+
+
+#img2{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+
+	
+}
+#img2 img{
+	width:49%;
+	height:170px;
+	border:15px solid #ffe1f0;
+	box-sizing:border-box;
+	margin:0px 0px 5px 0px;
+	
+	
+}
+
+/*			PRAJITURI			*/
+
+#prajituri_index, #torturi_index{
+	width:100%;
+	float:left;
+	clear:both;
+}
+
+#prajituri, #torturi_clasice, #torturi_tematice, #torturi_nunta, #torturi_botez, #torturi_copii, #candy_bar{
+	padding:10px;
+
+}
+
+#prajituri div, #torturi_clasice div, #torturi_tematice div,  #torturi_nunta div, #torturi_botez div, #torturi_copii div, #candy_bar div{
+	flex-basis:100%;
+	margin:7px;
+}
+
+/*			CONTACT			*/
+
+#contact_index{
+	float:left;
+	margin-top:20px;
+	padding:80px 0px;
+	
+}
+#contact_index div{
+	width:100%;
+	margin:0px auto;
+	padding:0px 0px;
+	border:40px solid transparent;
+	border-image-source:url(imagini/border_pagina_contact.png);
+	border-image-outset:0px;
+	border-image-slice:16%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:black;
+	background-repeat:no-repeat;
+}
+#contact_index h2{
+	font-size:24px;
+}
+
+#date_contact2 p span{
+	font-size:14px;
+}
+
+#contact_index p{
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+
+#footer{
+font-size:12px;
+}
+
+}
+
+
+@media screen  and (min-width: 667px) and (max-width: 768px){
+#header{
+	width:100%;
+	box-sizing:border-box;
+}
+
+
+#ingrediente{
+	width:30%;
+	padding-top:30px;
+	font-size:18px;
+}
+
+#ingrediente img, #tort img{
+	width:35px;
+	margin-right:20px;
+	
+}
+
+#tort{
+	width:30%;
+	padding-top:30px;
+	padding-bottom:15px;
+	font-size:18px;
+}
+
+#date_header div p img{
+	width:190px;
+	margin:0px;
+	padding:0px;}
+
+#date_header #ingrediente p img{
+	width:125px;
+}
+.toggle{
+	display:block;
+	text-align:right;
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:100%;
+	clear:both;
+	background-color:black;
+	color:white;
+	padding:6px 5px;
+	font-size:18px;
+	box-sizing:border-box;
+}
+
+#navigare #meniu{
+	display:block;
+	z-index:100;
+	box-sizing:border-box;
+}
+
+#navigare #meniu li{
+	width:100%;
+	display:block;
+	float:left;
+	margin:0px;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+	padding:0px 0px;
+	box-sizing:border-box;
+}
+
+
+#navigare #meniu li.open{
+	height:auto;
+}
+
+#navigare #meniu li a{
+	width:100%;
+	display:inline-block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:0px solid black;
+	box-sizing:border-box;
+	font-size:15px;
+	z-index:100;
+	padding:7px 0px;
+}
+
+#continut_pagina{
+	float:left;
+}
+
+
+#produsele_nostre, #despre_noi, #contact{
+	width:50%;
+	text-align:center;
+	border:35px solid transparent;
+	border-image-source:url(imagini/border.png);
+	border-image-outset:1px;
+	border-image-slice:17%;
+	border-image-repeat:no-repeat;
+	font-family:Old English Text MT;
+	font-size:20px;
+	box-sizing:border-box;
+}
+
+#continut_despre{
+	height:425px;
+	width:100%;
+	box-sizing:border-box;
+	text-align:center;
+	margin:0px auto;
+}
+
+#continut_despre div{
+	text-align:center;
+	padding-top:25px;
+	box-sizing:border-box;
+}
+#bucatar{
+	height:110px;
+	width:100%;
+	padding:0% 30%;
+	box-sizing:border-box;
+	margin:0px auto;
+
+}
+#text_despre{
+	float:left;
+	width:100%;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding:10px 18px;
+	font-family:Old English Text MT;
+	font-size:15px;
+}
+#tacamuri{
+	height:110px;
+	width:100%;
+	float:left;
+	padding:0% 20%;
+	box-sizing:border-box;
+	margin:0px auto;
+}
+
+#produse{
+
+}
+
+#torturi{
+	padding-top:10px;
+}
+#torturi div, #alte_produse a{
+	margin:0px;
+}
+
+#torturi div, #alte_produse a{
+	height:230px;
+	margin-bottom:10px;
+}
+#torturi a, #alte_produse a{
+	flex-basis:80%;
+}
+
+#produse div p{
+	
+	padding-top:70px;
+	padding-bottom:70px;
+	box-sizing:border-box;
+	opacity:0.7;
+	text-align:center;
+	font-family:Old English Text MT;
+	font-size:26px;
+	
+	
+}
+
+
+#continut_contact{
+	height:200px;
+	border:15px solid transparent;
+	padding:25px;
+	border-image-source:url(imagini/border3.png);
+	border-image-outset:0px;
+	border-image-slice:9%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:white;
+	background-repeat:no-repeat;
+	display:flex;
+	flex:1;
+}
+
+
+#continut_contact{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	width:100%;
+	height:auto;
+}
+#date_contact{
+	display:flex;
+	flex:100%;
+	flex:1;
+	flex-wrap:wrap;
+}
+#date_contact div{
+	flex:1;
+}
+
+#date_contact div p, #date_contact h3,  #program h3{
+	margin-bottom:10px;
+}
+#facebook_adresa a{
+	text-decoration:none;
+	color:#4c0000;
+}
+
+
+/*			DESPRE			*/
+
+#continut_pagina_despre{
+	float:left;
+	width:100%;
+	padding:0px;
+	margin-top:20px;
+	box-sizing:border-box;
+}
+
+#continut_pagina_despre div{
+	width:100%;
+}
+#despre1, #despre2{
+	width:100%;
+	display:block;
+	
+}
+
+#despre1 div, #despre2 div{
+	width:100%;
+	float:left;
+	display:inline-block;
+}
+#img1 img{
+	margin-top:5px;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border:10px solid #ffe1f0;
+}
+
+#cofetaria{
+	color:#ffc3e1;
+	font-size:16px;
+	font-style:italic;
+}
+
+#ingrediente_naturale{
+	color:#ff87c3;;
+}
+#despre_noi_index{
+text-align:center;
+padding:20px;
+font-size:12px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+#despre_noi_index2 p  span{
+	color:#cc5490;
+}
+
+#despre_noi_index2{
+text-align:left;
+padding:20px;
+font-size:12px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+
+#despre_noi_index2 p  .valori{
+	color:#ff87c3;
+	padding-left:70px;
+}
+
+
+#img2{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+
+	
+}
+#img2 img{
+	width:49%;
+	height:220px;
+	border:15px solid #ffe1f0;
+	box-sizing:border-box;
+	margin:0px 0px 5px 0px;
+	
+	
+}
+
+/*			PRAJITURI			*/
+
+#prajituri_index, #torturi_index{
+	width:100%;
+	float:left;
+	clear:both;
+}
+
+#prajituri, #torturi_clasice, #torturi_tematice, #torturi_nunta, #torturi_botez, #torturi_copii, #candy_bar{
+	padding:10px;
+
+}
+
+#prajituri div, #torturi_clasice div, #torturi_tematice div,  #torturi_nunta div, #torturi_botez div, #torturi_copii div, #candy_bar div{
+	flex-basis:100%;
+	margin:7px;
+}
+
+/*			CONTACT			*/
+
+#contact_index{
+	float:left;
+	margin-top:20px;
+	padding:80px 0px;
+	
+}
+#contact_index div{
+	width:100%;
+	margin:0px auto;
+	padding:0px 0px;
+	border:40px solid transparent;
+	border-image-source:url(imagini/border_pagina_contact.png);
+	border-image-outset:0px;
+	border-image-slice:16%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:black;
+	background-repeat:no-repeat;
+}
+#contact_index h2{
+	font-size:24px;
+}
+
+#date_contact2 p span{
+	font-size:14px;
+}
+
+#contact_index p{
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+
+#footer{
+font-size:12px;
+}
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1024px){
+#header{
+	width:100%;
+	box-sizing:border-box;
+}
+
+
+#ingrediente{
+	width:30%;
+	padding-top:30px;
+	font-size:18px;
+}
+
+#ingrediente img, #tort img{
+	width:35px;
+	margin-right:20px;
+	
+}
+
+#tort{
+	width:30%;
+	padding-top:30px;
+	padding-bottom:15px;
+	font-size:18px;
+}
+
+#date_header div p img{
+	width:300px;
+	margin:0px;
+	padding:0px;}
+
+#date_header #ingrediente p img{
+	width:165px;
+}
+.toggle{
+	display:block;
+	text-align:right;
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:100%;
+	clear:both;
+	background-color:black;
+	color:white;
+	padding:6px 5px;
+	font-size:18px;
+	box-sizing:border-box;
+}
+
+#navigare #meniu{
+	display:block;
+	z-index:100;
+	box-sizing:border-box;
+}
+
+#navigare #meniu li{
+	width:100%;
+	display:block;
+	float:left;
+	margin:0px;
+	height:0px;
+	overflow:hidden;
+	position:relative;
+	padding:0px 0px;
+	box-sizing:border-box;
+}
+
+
+#navigare #meniu li.open{
+	height:auto;
+}
+
+#navigare #meniu li a{
+	width:100%;
+	display:inline-block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:0px solid black;
+	box-sizing:border-box;
+	font-size:15px;
+	z-index:100;
+	padding:7px 0px;
+}
+
+#continut_pagina{
+	float:left;
+}
+
+
+#produsele_nostre, #despre_noi, #contact{
+	width:25%;
+	text-align:center;
+	border:35px solid transparent;
+	border-image-source:url(imagini/border.png);
+	border-image-outset:1px;
+	border-image-slice:17%;
+	border-image-repeat:no-repeat;
+	font-family:Old English Text MT;
+	font-size:20px;
+	box-sizing:border-box;
+}
+
+#continut_despre{
+	height:380px;
+	width:100%;
+	box-sizing:border-box;
+	text-align:center;
+	margin:0px auto;
+}
+
+#continut_despre div{
+	text-align:center;
+	padding-top:25px;
+	box-sizing:border-box;
+}
+#bucatar{
+	height:110px;
+	width:100%;
+	padding:0% 40%;
+	box-sizing:border-box;
+	margin:0px auto;
+
+}
+#text_despre{
+	float:left;
+	width:100%;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding:10px 18px;
+	font-family:Old English Text MT;
+	font-size:16px;
+}
+#tacamuri{
+	height:110px;
+	width:100%;
+	float:left;
+	padding:0% 30%;
+	box-sizing:border-box;
+	margin:0px auto;
+}
+
+#produse{
+
+}
+
+#torturi{
+	padding-top:10px;
+}
+#torturi div, #alte_produse a{
+	margin:0px;
+}
+
+#torturi div, #alte_produse a{
+	height:230px;
+	margin-bottom:10px;
+}
+#torturi a, #alte_produse a{
+	flex-basis:45%;
+}
+
+#produse div p{
+	
+	padding-top:70px;
+	padding-bottom:70px;
+	box-sizing:border-box;
+	opacity:0.7;
+	text-align:center;
+	font-family:Old English Text MT;
+	font-size:30px;
+	
+	
+}
+
+
+#continut_contact{
+	height:200px;
+	border:15px solid transparent;
+	padding:25px;
+	border-image-source:url(imagini/border3.png);
+	border-image-outset:0px;
+	border-image-slice:9%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:white;
+	background-repeat:no-repeat;
+	display:flex;
+	flex:1;
+}
+
+
+#continut_contact{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	width:100%;
+	height:auto;
+}
+#date_contact{
+	display:flex;
+	flex:100%;
+	flex:1;
+	flex-wrap:wrap;
+}
+#date_contact div{
+	flex:1;
+}
+
+#date_contact div p, #date_contact h3,  #program h3{
+	margin-bottom:10px;
+}
+#facebook_adresa a{
+	text-decoration:none;
+	color:#4c0000;
+}
+
+
+/*			DESPRE			*/
+
+#img1 img{
+	margin-top:5px;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	border:10px solid #ffe1f0;
+}
+
+#cofetaria{
+	font-size:18px;
+	font-style:italic;
+}
+
+#ingrediente_naturale{
+	color:#ff87c3;;
+}
+#despre_noi_index{
+text-align:center;
+padding:30px;
+font-size:14px;
+}
+#despre_noi_index2 p  span{
+	color:#cc5490;
+}
+
+#despre_noi_index2{
+text-align:left;
+padding:30px;
+font-size:14px;
+}
+
+#despre_noi_index2 p  .valori{
+	color:#ff87c3;
+	padding-left:70px;
+}
+
+
+#img2{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+
+	
+}
+#img2 img{
+	width:49%;
+	height:180px;
+	border:15px solid #ffe1f0;
+	box-sizing:border-box;
+	margin:0px 0px 5px 0px;
+	
+	
+}
+
+/*			PRAJITURI			*/
+
+#prajituri_index, #torturi_index{
+	width:100%;
+	float:left;
+	clear:both;
+}
+
+#prajituri, #torturi_clasice, #torturi_tematice, #torturi_nunta, #torturi_botez, #torturi_copii, #candy_bar{
+	padding:10px;
+
+}
+
+#prajituri div, #torturi_clasice div, #torturi_tematice div,  #torturi_nunta div, #torturi_botez div, #torturi_copii div, #candy_bar div{
+	flex-basis:25%;
+}
+
+/*			CONTACT			*/
+
+#contact_index{
+	float:left;
+	margin-top:20px;
+	padding:80px 90px;
+	box-sizing:border-box;
+	
+}
+#contact_index div{
+	width:100%;
+	margin:0px auto;
+	padding:0px 0px;
+	border:40px solid transparent;
+	border-image-source:url(imagini/border_pagina_contact.png);
+	border-image-outset:0px;
+	border-image-slice:16%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:black;
+	background-repeat:no-repeat;
+}
+#contact_index h2{
+	font-size:26px;
+}
+
+#date_contact2 p span{
+	font-size:15px;
+}
+
+#contact_index p{
+	font-size:15px;
+	font-weight:bold;
+}
+
+
+
+#footer{
+font-size:14px;
+}
+}
+
+@media screen  and (min-width: 1024px) and (max-width: 1200px){
+
+#date_header div p img{
+	width:350px;
+	margin:0px;
+	padding:0px;}
+
+#date_header #ingrediente p img{
+	width:205px;
+}
+
+#meniu li{
+	margin:10px 5px;
+}
+#meniu li a{
+	padding:5px 0px;
+	font-size:16px;
+}
+
+
+#produsele_nostre, #despre_noi, #contact{
+	width:25%;
+	font-size:26px;
+	box-sizing:border-box;
+}
+
+#continut_despre{
+	height:220px;
+}
+#bucatar{
+	height:200px;
+}
+#text_despre{
+	padding:30px 40px;
+	font-size:17px;
+}
+#tacamuri{
+	height:200px;
+}
+
+#torturi{
+	padding-top:10px;
+}
+#torturi div, #alte_produse a{
+	margin:0px;
+}
+
+#torturi div, #alte_produse a{
+	height:230px;
+	margin-bottom:10px;
+}
+#torturi a, #alte_produse a{
+	flex-basis:30%;
+}
+#alte_produse a{
+	flex-basis:23%;
+}
+
+#produse div p{
+	padding-top:65px;
+	padding-bottom:70px;
+	box-sizing:border-box;
+	opacity:0.7;
+	text-align:center;
+	font-family:Old English Text MT;
+	font-size:30px;
+}
+
+#facebook_adresa a{
+	text-decoration:none;
+	color:#4c0000;
+}
+
+
+/*			DESPRE			*/
+
+#despre_noi_index{
+padding:30px;
+font-size:16px;
+}
+#despre_noi_index2 p  span{
+	color:#cc5490;
+}
+
+#despre_noi_index2{
+padding:30px;
+font-size:16px;
+}
+
+#despre_noi_index2 p  .valori{
+	color:#ff87c3;
+	padding-left:70px;
+}
+
+
+#img2{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+
+	
+}
+#img2 img{
+	width:49%;
+	height:200px;
+	border:15px solid #ffe1f0;
+	box-sizing:border-box;
+	margin:0px 0px 5px 0px;
+	
+	
+}
+/*			PRAJITURI			*/
+
+#prajituri_index, #torturi_index{
+	width:100%;
+	float:left;
+	clear:both;
+}
+
+#prajituri, #torturi_clasice, #torturi_tematice, #torturi_nunta, #torturi_botez, #torturi_copii, #candy_bar{
+	padding:10px;
+
+}
+
+#prajituri div, #torturi_clasice div, #torturi_tematice div,  #torturi_nunta div, #torturi_botez div, #torturi_copii div, #candy_bar div{
+	flex-basis:20%;
+}
+
+/*			CONTACT			*/
+
+#contact_index{
+	padding:80px 150px;
+	box-sizing:border-box;
+	
+}
+#contact_index div{
+	width:100%;
+	margin:0px auto;
+	padding:40px 0px;
+	border:40px solid transparent;
+	border-image-source:url(imagini/border_pagina_contact.png);
+	border-image-outset:0px;
+	border-image-slice:16%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:black;
+	background-repeat:no-repeat;
+}
+#contact_index h2{
+	font-size:28px;
+}
+
+#date_contact2 p span{
+	font-size:17px;
+}
+
+#contact_index p{
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+#footer{
+font-size:15px;
+}	
+}
+
+@media screen  and (min-width: 1200px) and (max-width: 1400px){
+	#date_header div p img{
+	width:350px;
+	margin:0px;
+	padding:0px;}
+
+#date_header #ingrediente p img{
+	width:205px;
+}
+
+#meniu li{
+	margin:10px 5px;
+}
+#meniu li a{
+	padding:5px 0px;
+	font-size:16px;
+}
+
+
+#produsele_nostre, #despre_noi, #contact{
+	width:20%;
+	border-image-slice:18%;
+	font-size:26px;
+	box-sizing:border-box;
+}
+
+#continut_despre{
+	height:220px;
+}
+#bucatar{
+	height:200px;
+}
+#text_despre{
+	padding:30px 40px;
+	font-size:17px;
+}
+#tacamuri{
+	height:200px;
+}
+
+#torturi{
+	padding-top:10px;
+}
+#torturi div, #alte_produse a{
+	margin:0px;
+}
+
+#torturi div, #alte_produse a{
+	height:230px;
+	margin-bottom:10px;
+}
+#torturi a, #alte_produse a{
+	flex-basis:30%;
+}
+#alte_produse a{
+	flex-basis:23%;
+}
+
+#produse div p{
+	padding-top:65px;
+	padding-bottom:70px;
+	box-sizing:border-box;
+	opacity:0.7;
+	text-align:center;
+	font-family:Old English Text MT;
+	font-size:30px;
+}
+
+#facebook_adresa a{
+	text-decoration:none;
+	color:#4c0000;
+}
+
+
+/*			DESPRE			*/
+
+#despre_noi_index{
+padding:70px;
+font-size:17px;
+}
+#despre_noi_index2 p  span{
+	color:#cc5490;
+}
+
+#despre_noi_index2{
+padding:70px;
+font-size:17px;
+}
+
+#despre_noi_index2 p  .valori{
+	color:#ff87c3;
+	padding-left:70px;
+}
+
+
+#img2{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+
+	
+}
+#img2 img{
+	width:49%;
+	height:220px;
+	border:15px solid #ffe1f0;
+	box-sizing:border-box;
+	margin:0px 0px 5px 0px;
+	
+	
+}
+/*			PRAJITURI			*/
+
+#prajituri_index, #torturi_index{
+	width:100%;
+	float:left;
+	clear:both;
+}
+
+#prajituri, #torturi_clasice, #torturi_tematice, #torturi_nunta, #torturi_botez, #torturi_copii, #candy_bar{
+	padding:10px;
+
+}
+
+#prajituri div, #torturi_clasice div, #torturi_tematice div,  #torturi_nunta div, #torturi_botez div, #torturi_copii div, #candy_bar div{
+	flex-basis:18%;
+}
+
+/*			CONTACT			*/
+
+#contact_index{
+	padding:80px 180px;
+	box-sizing:border-box;
+	
+}
+#contact_index div{
+	width:100%;
+	margin:0px auto;
+	padding:40px 0px;
+	border:40px solid transparent;
+	border-image-source:url(imagini/border_pagina_contact.png);
+	border-image-outset:0px;
+	border-image-slice:16%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:black;
+	background-repeat:no-repeat;
+}
+#contact_index h2{
+	font-size:32px;
+}
+
+#date_contact2 p span{
+	font-size:19px;
+}
+
+#contact_index p{
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+#footer{
+font-size:15px;
+}
+}

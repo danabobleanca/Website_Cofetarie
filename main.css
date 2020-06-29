@@ -1,0 +1,548 @@
+
+/*			INDEX			*/
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+header, footer, section, nav{
+	display:block;
+}
+
+body{
+	width:100%;
+	background-image:url(imagini/hexagon4.jpg);
+
+	
+}
+
+#header{
+	width:100%;
+	box-sizing:border-box;
+}
+
+#contact_header{
+	padding:5px 10px;
+	text-align:right;
+	background-color:black;
+	color:white;
+
+}
+
+#contact_header img{
+	width:18px;
+	margin-left:10px;
+	margin-right:8px;
+}
+
+#date_header{
+	text-align:center;
+	border-top:4px solid black;
+	font-family:Old English Text MT;
+	font-size:20px;
+
+}
+#adresa{
+	float:left;
+	color:white;
+}
+#ingrediente{
+	float:left;
+	width:35%;
+	padding-top:30px;
+	text-align:center;
+}
+
+#ingrediente img, #tort img{
+	width:40px;
+	margin-right:20px;
+	
+}
+
+#tort{
+	float:right;
+	width:35%;
+	padding-top:30px;
+}
+#ingrediente p img{
+	padding-left:120px;
+}
+#logo{
+	width:260px;
+	margin:10px 0px;
+}
+
+#date_header div p img{
+	width:450px;
+}
+#date_header #ingrediente p img{
+	width:265px;
+}
+
+.toggle{
+	display:none;
+	text-align:right;
+	margin:0px;
+	padding:0px;
+	background-color:black;
+	color:white;
+	padding:6px 5px;
+	font-size:18px;
+	box-sizing:border-box;
+	float:left;
+	width:100%;
+}
+
+#navigare{
+	display:block;
+	text-align:center;
+	background-color:black;
+}
+#meniu{
+	display:flex;
+}
+
+#meniu li{
+	flex:1;
+	list-style-type:none;
+	padding:7px 0px;
+	margin:10px 10px;
+	border-radius:40px;
+	background-image:url(imagini/nav_background.jpg);
+}
+
+#meniu li a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	padding:5px 0px;
+	list-style-type:none;
+}
+#produsele_nostre, #despre_noi, #contact{
+	margin:0px auto;
+	text-align:center;
+	width:13%;
+	border:50px solid transparent;
+	padding:0px;
+	border-image-source:url(imagini/border.png);
+	border-image-outset:1px;
+	border-image-slice:16%;
+	border-image-repeat:no-repeat;
+	font-family:Old English Text MT;
+	font-size:35px;
+}
+
+#continut_despre{
+	height:250px;
+	background-color:#fff1f7;
+	width:100%;
+	box-sizing:border-box;
+}
+#bucatar{
+	height:230px;
+	width:20%;
+	float:left;
+	padding:10px 20px;
+	box-sizing:border-box;
+
+}
+#text_despre{
+	float:left;
+	width:45%;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding:50px 40px;
+	font-family:Old English Text MT;
+	font-size:20px;
+}
+#tacamuri{
+	height:230px;
+	float:right;
+	width:35%;
+	padding:0px 20px;
+	box-sizing:border-box;
+}
+#produse{
+	width:100%;
+	box-sizing:border-box;
+}
+#torturi, #alte_produse{
+	display:flex;
+	box-sizing:border-box;
+	background-color:#fff1f7;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+#torturi div, #alte_produse a{
+	box-sizing:border-box;
+	color:white;
+	margin:8px;
+	border:30px solid #fff0f7;
+	border-image-source:url(imagini/border1.png);
+	border-image-outset:0px;
+	border-image-slice:6%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:transparent;
+	background-repeat:no-repeat;
+}
+
+#torturi div{
+	height:280px;
+}
+#torturi a{
+	flex-basis:30%;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+
+
+#torturi_clasice_p{
+	background-image:url(imagini/torturi_clasice.jpg);
+	background-size:100% 100%;
+}
+#torturi_tematice_p{
+	background-image:url(imagini/torturi_tematice.jpg);
+	background-size:100% 100%;
+}
+
+#torturi_nunta_p{
+	background-image:url(imagini/torturi_nunta.jpg);
+	background-size:100% 100%;
+}
+#torturi_botez_p{
+	background-image:url(imagini/torturi_botez.jpg);
+	background-size:100% 100%;
+}
+
+#torturi_copii_p{
+	background-image:url(imagini/torturi_copii.jpg);
+	background-size:100% 100%;
+
+}
+#torturi_burlaci_p{
+	background-image:url(imagini/torturi_burlaci.jpg);
+	background-size:100% 100%;
+
+}
+#alte_produse a{
+	flex-basis:23%;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+
+
+#prajituri_p{
+	background-image:url(imagini/prajituri.jpg);
+	background-size:100% 100%;
+}
+#candy_bar_p{
+	background-image:url(imagini/candy_bar3.jpg);
+	background-size:100% 100%;
+}
+
+#fursecuri_p{
+	background-image:url(imagini/fursecuri.jpg);
+	background-size:100% 100%;
+}
+
+#cozonaci_p{
+	background-image:url(imagini/cozonaci.jpg);
+	background-size:100% 100%;
+}
+
+#produse div p{
+	background-color:black;
+	height:100%;
+	padding-top:70px;
+	padding-bottom:70px;
+	box-sizing:border-box;
+	opacity:0.7;
+	text-align:center;
+	font-family:Old English Text MT;
+	font-size:38px;
+	
+	
+}
+#produse div p:hover{
+	opacity:0.4;
+	cursor:pointer;
+}
+#alte_produse div{
+	flex:1;
+}
+#continut_contact{
+	height:200px;
+	border:15px solid transparent;
+	padding:25px;
+	border-image-source:url(imagini/border3.png);
+	border-image-outset:0px;
+	border-image-slice:9%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:#fff1f7;
+	background-repeat:no-repeat;
+	display:flex;
+	flex:1;
+}
+
+#continut_contact{
+	text-align:center;
+	font-family:Old English Text MT;
+}
+#date_contact{
+	flex:2;
+	display:flex;
+}
+#date_contact div{
+	flex:1;
+}
+
+#date_contact div p, #date_contact h3,  #program h3{
+	margin-bottom:10px;
+}
+#facebook_adresa a{
+	text-decoration:none;
+	color:#4c0000;
+}
+
+#program{
+	flex:1;
+}
+
+/*			DESPRE			*/
+
+#continut_pagina_despre{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	background-color:#fff1f7;
+	padding:0px;
+	margin-top:50px;
+}
+
+#continut_pagina_despre div{
+	flex-basis:100%;
+}
+#despre1, #despre2{
+	display:flex;
+	flex-wrap:no-wrap;
+	width:100%;
+	flex:1;
+	box-sizing:border-box;
+}
+
+#despre1 div, #despre2 div{
+	flex-basis:50%;
+	box-sizing:border-box;
+}
+#img1 img{
+	margin-top:5px;
+	width:100%;
+	box-sizing:border-box;
+	border:15px solid #ffe1f0;
+}
+
+#cofetaria{
+	color:#ffc3e1;
+	font-size:26px;
+	font-style:italic;
+}
+
+#ingrediente_naturale{
+	color:#ff87c3;;
+}
+#despre_noi_index{
+text-align:center;
+padding:90px;
+font-size:16px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+#despre_noi_index2 p  span{
+	color:#cc5490;
+}
+
+#despre_noi_index2{
+text-align:left;
+padding:90px;
+font-size:16px;
+font-family:Lucida Calligraphy;
+font-weight:bold;
+}
+
+#despre_noi_index2 p  .valori{
+	color:#ff87c3;
+	padding-left:70px;
+}
+
+
+#img2{
+	display:flex;
+	flex:1;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+
+	
+}
+#img2 img{
+	width:49.5%;
+	height:260px;
+	border:15px solid #ffe1f0;
+	box-sizing:border-box;
+	margin:0px 0px 5px 0px;
+	
+	
+}
+
+/*			TORTURI				*/
+
+#torturi_index, #candy_bar_index{
+	margin-top:50px;
+}
+
+#numar_pagina{
+	background-color:white;
+	text-align:center;
+	padding:15px 0px;
+}
+
+#numar_pagina a{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:18px;
+	background-image:url(imagini/nav_background.jpg);
+	margin:5px;
+	padding:10px 15px;
+	border-radius:100%;
+	color:white;
+}
+/*			PRAJITURI			*/
+#prajituri_index{
+	margin-top:50px;
+}
+
+#prajituri, #torturi_clasice, #torturi_tematice, #torturi_nunta, #torturi_botez, #torturi_copii, #candy_bar{
+	width:100%;
+	background-color:#fff1f7;
+	padding:20px;
+	box-sizing:border-box;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+
+}
+
+#prajituri div, #torturi_clasice div, #torturi_tematice div,  #torturi_nunta div, #torturi_botez div, #torturi_copii div, #candy_bar div{
+	flex:1;
+	flex-basis:17%;
+	margin:10px;
+	height:280px;
+	background-origin:padding-box;
+	border:20px solid #fff0f7;
+	border-bottom:0px;
+	padding:0px;
+	background-size:cover;
+	position:relative;
+	border-image-source:url(imagini/border1.png);
+	border-image-outset:0px;
+	border-image-slice:6%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-repeat:no-repeat;
+	max-width:280px;
+	
+	
+}
+#prajituri div:hover, #torturi_clasice div:hover, #torturi_tematice div:hover, #torturi_nunta div:hover, #torturi_botez div:hover, #torturi_copii div:hover, 
+#candy_bar div:hover{
+	opacity:0.9;
+}
+
+
+#prajituri div a, #torturi_clasice div a, #torturi_tematice div a, #torturi_nunta div a, #torturi_botez div a, #torturi_copii div a, #candy_bar div a{
+	position:absolute;
+	height:100%;
+	width:100%;
+	text-decoration:none;
+}
+
+#prajituri div p, #torturi_clasice p, #torturi_tematice p, #torturi_nunta p, #torturi_botez p, #torturi_copii p,  #candy_bar p{
+	position:relative;
+	top:81.5%;
+	background-color:black;
+	color:white;
+	padding:15px 0px;
+	opacity:0.8;
+	text-align:center;
+}
+
+
+/*			CONTACT			*/
+
+#contact_index{
+	background-image:url(imagini/background_contact.jpg);
+	background-size:cover;
+	margin-top:50px;
+	opacity:0.8;
+	width:100%;
+	text-align:center;
+	padding:110px 0px;
+	
+}
+#contact_index div{
+	background-color:black;
+	opacity:0.8;
+	color:white;
+	width:70%;
+	margin:0px auto;
+	padding:15px 0px;
+	border:70px solid transparent;
+	padding:25px;
+	border-image-source:url(imagini/border_pagina_contact.png);
+	border-image-outset:0px;
+	border-image-slice:16%;
+	border-image-repeat:repeat;
+	box-sizing:border-box;
+	background-color:black;
+	background-repeat:no-repeat;
+}
+#contact_index h2{
+	font-size:36px;
+}
+
+#date_contact2 p span{
+	font-size:20px;
+}
+
+#contact_index p{
+	font-size:18px;
+	font-weight:bold;
+}
+#contact_index p a{
+	text-decoration:none;
+	color:white;
+}
+
+#footer{
+	text-align:center;
+	padding:15px 0px;
+}
+
+#footer a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+
+#footer a:hover{
+	color:red;
+}
+
+#footer{
+	width:100%;
+}
